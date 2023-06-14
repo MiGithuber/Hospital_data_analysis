@@ -10,6 +10,7 @@ Date: 4/06/2023
 import pandas as pd
 import matplotlib.pyplot as plt
 import argparse
+import seaborn as sns
 
 def ques_1(df):
     """
@@ -20,7 +21,7 @@ def ques_1(df):
             A barplot Visualization
         ...
     """
-    sns.barplot(x=df['Years'],y=df['Hospitals'],data=df)
+    sns.barplot(x=df['Year'],y=df['Hospitals'],data=df)
 
     
 def ques_2(df):
@@ -31,7 +32,7 @@ def ques_2(df):
             A lineplot Visualization
     
     """
-    plt.plot(df['Years'],df['Patients'])
+    plt.plot(df['Year'],df['Patients'])
     plt.show()
 
 def ques_3(df):
@@ -41,7 +42,7 @@ def ques_3(df):
     Returns:
             A lineplot Visualization
     """
-    plt.plot(df['Years'],df['Average occupancy of hospital beds'])
+    plt.plot(df['Year'],df['Average occupancy of hospital beds'])
     plt.show()
 
 def ques_4(df):
@@ -51,7 +52,7 @@ def ques_4(df):
     Returns:
             A lineplot Visualization
     """
-    plt.plot(df['Years'],df['Occupancy / billing days'])
+    plt.plot(df['Year'],df['Occupancy / billing days'])
     plt.show()
 
 
