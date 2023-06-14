@@ -1,0 +1,7 @@
+Research Software Engineering.
+I have taken the dataset as, I found it interesting and it was short and firm and straight to the point. There weren’t much missing data available. 
+It helped me to understand the overall hospital operations and hence, we can understand the dynamics better.
+The data was already clean so there wasn’t much to do. 
+Checked for relation between the dimensions available.
+
+I have taken a dataset and have take 5 research questions where I will be visualizing the data for better understanding.
